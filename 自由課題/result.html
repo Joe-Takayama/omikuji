@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>おみくじアプリ</title>
+        <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <h1>あなたの運勢は・・・・</h1>
+                <!-- ここに運勢が表示される-->
+                <p id="result" class="result-text">ここには運勢が表示されます</p>
+                <!-- ここに運勢に応じてメッセージが表示される-->
+                <p id="message" class="message-text">ここに励ましの言葉が表示されます</p>
+            </div>
+            <button id="draw" class="draw-text">おみくじを引く</button>
+            <div class="top">
+                <a href="index.html" class="topbtn" id="topBtn">トップページに戻る</a>
+            </div>
+            <div class="datetime-container">
+                <div id="time" class="time"></div>
+                <div id="date" class="date"></div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+        <script src="sub.js"></script>
+    </body>
+</html>

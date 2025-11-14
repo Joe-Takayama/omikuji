@@ -1,0 +1,23 @@
+<!-- トップページ-->
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>おみくじアプリ</title>
+        <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- おみくじを引きに行くページに飛ばす-->
+        <div class="container">
+            <img src="images/omikuji_6573.png" alt="おみくじの画像" class="omikuji_images"><br>
+            <a href="result.html" class="btn" id="omikujiBtn">おみくじを引きに行く</a>
+        </div>
+         <!-- その日の時間や曜日を表示させる-->
+        <div class="datetime-container">
+            <div id="time" class="time"></div>
+            <div id="date" class="date"></div>
+        </div>
+        <script src="sub.js"></script>
+    </body>
+</html>

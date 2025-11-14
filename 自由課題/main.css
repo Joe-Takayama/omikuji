@@ -1,0 +1,115 @@
+body {
+    /* 文字の形と背景色、テキストの位置、余白を設定している */
+    font-family: 'Arial', sans-serif; 
+    background-color: darkcyan;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* 要素の上側の外側の余白を100px空ける     */
+    margin-top: 100px;
+}
+
+.omikuji_images {
+    /* 要素の横幅、高さを自動調節、余白を-を使っているので埋めている */
+    width: 500px;
+    height: auto;
+    margin-top: -100px;
+}
+
+.btn {
+    /* 背景色、余白、影など、おしゃれな見た目にしている */
+    display: inline-block;
+    background-color: red;
+    color: azure;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    text-shadow: 1px 1px 2px #fff;
+    box-shadow: 1px 1px 2px black;
+}
+
+/* マウスなどを合わせた時に、色が変わるようにしている */
+.btn:hover {
+    background-color: darkblue;
+}
+
+.box {
+  border: 2px solid red;  /* 枠線の色と太さ */
+  padding: 20px;           /* 内側の余白 */
+  border-radius: 8px;      /* 角を少し丸く */
+  width: fit-content;      /* 中身の幅に合わせる */
+  margin: 0 auto;          /* 横中央寄せ（必要に応じて） */
+  background-color: white;
+}
+
+/* それぞれの区間が見やすいようにしている */
+.box h1 {
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.result-text {
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.message-text {
+    padding-top: 10px;
+}
+
+.draw-text {
+    margin-top: 50px;
+}
+
+.top {
+    margin-top: 50px;
+}
+
+/* リンクを作る際に出る、下の線を消して、背景色などを設定している */
+.topbtn {
+    text-decoration: none;
+    background-color: red;
+    color: aliceblue;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    box-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px white;
+}
+
+/* マウスなどが合わせた時に色が変わるようにしている */
+.topbtn:hover {
+    background-color: darkblue;
+}
+
+/* 時間などを見やすい位置にしている */
+.datetime-container {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 50px
+}
+
+/* おしゃれな装飾にしている */
+.time {
+    font-size: 18px;
+    font-weight: bold;
+    color: #cc3366;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+/* おしゃれな装飾にしている */
+.date {
+    font-size: 18px;
+    font-weight: bold;
+    color: #cc3366;
+    text-shadow: 1px 1px 2px #fff;
+}
